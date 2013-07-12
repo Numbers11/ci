@@ -1,0 +1,57 @@
+/**
+ * All your custom CSS should go into this file
+ 
+}*/
+body {
+background:url('../img/pw_pattern.png')	repeat;
+}
+
+#content {
+-webkit-box-shadow: inset 0px 0px 1px rgba(0,0,0,0.09);
+box-shadow: inset 0px 0px 1px rgba(0,0,0,0.09);
+margin-top:15px;
+padding:10px;
+background-color:white;
+min-height:400px;
+margin-bottom:60px;
+}
+
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+td.online0  {
+	border-left:3px solid #FF0000; !important
+}
+
+td.online1 {
+	border-left:3px solid green; !important
+}
+.installed0 {
+	background-color:#F0A57F;
+}
+#menutable {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+.installed1 {	
+	background-color:#b7e8b6;	
+}
+  .navbar-inner{
+       -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+    }
+	
+table tr th {
+  border: none;
+  padding-top: 5px;
+}
